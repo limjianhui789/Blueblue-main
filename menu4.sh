@@ -57,8 +57,8 @@ export WARNING="${RED}\e[5m"
 export UNDERLINE="\e[4m"
 
 # // Exporting URL Host
-export Server_URL="raw.githubusercontent.com/NevermoreSSH/Blueblue/main/test"
-export Server1_URL="raw.githubusercontent.com/NevermoreSSH/Blueblue/main/limit"
+export Server_URL="raw.githubusercontent.com/limjianhui789/Blueblue-main/main/test"
+export Server1_URL="raw.githubusercontent.com/limjianhui789/Blueblue-main/main/limit"
 export Server_Port="443"
 export Server_IP="underfined"
 export Script_Mode="Stable"
@@ -178,7 +178,7 @@ echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
 }
-export sem=$( curl -s https://raw.githubusercontent.com/NevermoreSSH/Blueblue/main/test/versions)
+export sem=$( curl -s https://raw.githubusercontent.com/limjianhui789/Blueblue-main/main/test/versions)
 export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 IPVPS=$(curl -sS ipv4.icanhazip.com)
@@ -301,7 +301,7 @@ case $opt in
 99) clear ; restore ;;
 #88) clear ; wget https://raw.githubusercontent.com/NevermoreSSH/Vergil/main2/addons/dns2.sh && chmod +x dns2.sh && ./dns2.sh ;;
 #99) clear ; wget https://raw.githubusercontent.com/NevermoreSSH/Vergil/main/Tunnel/udp.sh && bash udp.sh ;;
-#22) clear ; wget https://raw.githubusercontent.com/NevermoreSSH/Blueblue/main/cf.sh && chmod +x cf.sh && ./cf.sh ;;
+#22) clear ; wget https://raw.githubusercontent.com/limjianhui789/Blueblue-main/main/cf.sh && chmod +x cf.sh && ./cf.sh ;;
 #25) clear ; del-xrays ;;
 #30) clear ; user-xrays ;;
 0) clear ; menu ;;

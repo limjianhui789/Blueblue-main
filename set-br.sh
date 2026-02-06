@@ -5,7 +5,7 @@
 # Auther  : NevermoreSSH
 # (C) Copyright 2022
 # =========================================
-export Server_URL="raw.githubusercontent.com/NevermoreSSH/Blueblue/main"
+export Server_URL="raw.githubusercontent.com/limjianhui789/Blueblue-main/main"
 
 clear
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
